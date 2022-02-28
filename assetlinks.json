@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.chequescore.uat",
+    "sha256_cert_fingerprints":
+    ["0A:76:18:95:66:69:60:41:E8:7C:E6:5C:8D:BB:57:C6:04:5E:B1:C8:BB:AB:E8:85:05:0C:52:D4:8A:00:59:AA"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://onlineuat.aecb.gov.ae"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.chequescore.uat",
+    "sha256_cert_fingerprints":
+    ["0A:76:18:95:66:69:60:41:E8:7C:E6:5C:8D:BB:57:C6:04:5E:B1:C8:BB:AB:E8:85:05:0C:52:D4:8A:00:59:AA"]
+  }
+}]
